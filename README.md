@@ -74,6 +74,26 @@ The backend server will start on `http://localhost:8080`.
 
 The frontend application will be accessible at `http://localhost:4200`.
 
+## Docker Setup
+
+You can also run the entire application using Docker Compose. This is the recommended way to run the application for development and production.
+
+1.  **Build and Run the Application**
+
+    ```bash
+    docker compose up --build
+    ```
+
+    This command will build the Docker images for both the frontend and backend and start the services. The frontend will be available at `http://localhost:4200`, and the backend will be available at `http://localhost:8080`.
+
+2.  **Stop the Application**
+
+    To stop the application, press `Ctrl+C` in the terminal where the application is running, and then run the following command to remove the containers:
+
+    ```bash
+    docker compose down
+    ```
+
 ## Usage
 
 Once both the backend and frontend servers are running, open your web browser and navigate to `http://localhost:4200`. You will see the employee management application, where you can perform all the CRUD operations.
