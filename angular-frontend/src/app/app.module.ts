@@ -9,6 +9,10 @@ import { FormsModule} from '@angular/forms';
 import { UpdateEmployeeComponent } from './update-employee/update-employee.component';
 import { EmployeeDetailsComponent } from './employee-details/employee-details.component'
 
+/**
+ * @title AppModule
+ * @description The root module of the application.
+ */
 @NgModule({
   declarations: [
     AppComponent,

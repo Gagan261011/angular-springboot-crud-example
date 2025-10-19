@@ -13,6 +13,10 @@ const routes: Routes = [
   {path: 'employee-details/:id', component: EmployeeDetailsComponent}
 ];
 
+/**
+ * @title AppRoutingModule
+ * @description The routing module for the application.
+ */
 @NgModule({
   imports: [RouterModule.forRoot(routes)],                                                                                                                                                                                                                                                                                                          
   exports: [RouterModule]
